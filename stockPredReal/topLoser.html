@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="./style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-custom navbar-light fixed-top" id="navi">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">STOCK PREDICTOR</a>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nevi nav-item">
+                <a class="nav-link" href="./compCardsFinal.html">All</a>
+              </li>
+              <li class="nevi nav-item">
+                <a class="nav-link" href="./topGainer.html">Top_gainers</a>
+              </li>
+              <li class="active nevi nav-item">
+                <a class="nav-link" href="#">Top_losers</a>
+              </li>
+              <li class="nevi nav-item">
+                <a class="nav-link" href="#">Stocks_by_Dept.</a>
+              </li>
+              <li class="nevi nav-item">
+                <a class="nav-link" href="#">Our_Recommendation</a>
+              </li>
+              <li class="nevi nav-item" style="background-color: #A4B0BD;">
+                <a class="nav-link" href="#">Logout</a>
+              </li>
+        </ul>
+      </div>
+</nav>
+
+
+<div class="container-fluid" id="main">
+    <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input id="searcher" class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+          aria-label="Search">
+          <button class="btn btn-elegant btn-rounded btn-sm my-0" id="but" type="button" style="background-color: #A4B0BD;">Search</button>
+      </form>
+	<div class="row">
+            
+        <div class="box border rounded" class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal; margin: 1em 1em;padding: 16px 16px" >
+				
+			<!-- GAIL (India) Limited -->
+				
+
+				       
+					<a class="company" href= "./csv/GAIL.html" style=" color: #609">					  
+						GAIL (India) Limited
+				    </a>
+				    
+				    <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: GAIL (India) Limited</p>
+				    <span style="color: #3c4043;font-size: 14px;">84.20</span>
+				    <span style="color: #3c4043;font-size: 14px;">INR</span>
+				    <span style="color: #d23F31;font-size: 14px;">4.54%</span>
+
+					<svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+					<path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+					</svg>
+
+
+				
+			</div>
+			
+			<div class="box border rounded" class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal; margin: 1em 1em;padding: 30px 16px" >
+			<!-- Larsen & Toubro Limited-->
+			<a class="company" href= "./csv/LT.html" style="color: #609">
+				          Larsen & Toubro Limited
+				    </a>
+				    
+				    <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: Larsen & Toubro Limited</p>
+				    <span style="color: #3c4043;font-size: 14px;">860.00</span>
+				    <span style="color: #3c4043;font-size: 14px;">INR</span>
+				    <span style="color: #d23F31;font-size: 14px;">2.48%</span>
+
+					<svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+					<path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+					</svg>
+
+
+				
+			</div>
+			<div class="box border rounded" class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal; margin: 1em 1em;padding: 30px 16px" >
+			<!-- Adani Ports and Special Economic Zone Ld-->
+			<a class="company" href= "./csv/ADANIPORTS.html" style=" color: #609">
+				       Adani Ports and Special Economic Zone Ld
+				    </a>
+				    
+				    <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: Adani Ports and Special Economic Zone Ld</p>
+				    <span style="color: #3c4043;font-size: 14px;">331.65</span>
+				    <span style="color: #3c4043;font-size: 14px;">INR</span>
+				    <span style="color: #d23F31;font-size: 14px;">4.66%</span>
+
+					<svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+					<path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+					</svg>
+
+
+				
+			</div>
+					
+					
+	</div>	
+	<div class="row">
+		<div class="box border rounded" class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal; margin: 1em 1em;padding: 16px 16px" >
+
+        <!-- Ambuja Cement -->
+
+
+                <a class="company" href= "./csv/AMBUJACEM.html" style=" color: #609">
+                        Ambuja Cement Ltd.
+                </a>
+
+                <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: AMBUJACEM</p>
+                <span style="color: #3c4043;font-size: 14px;">205.30</span>
+                <span style="color: #3c4043;font-size: 14px;">INR</span>
+                <span style="color: #d23f31;font-size: 14px;">-4.45%</span>
+
+                <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                </svg>
+
+
+
+        </div>
+        <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+			<!-- HDFC Life Insurance Company Ltd -->
+
+
+					<a class="company" href= "./csv/HDFCBANK.html" style=" color: #609">
+                        HDFC Life Insurance Company Ltd
+				    </a>
+
+				    <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: HDFCLIFE</p>
+				    <span style="color: #3c4043;font-size: 14px;">578.65</span>
+				    <span style="color: #3c4043;font-size: 14px;">INR</span>
+				    <span style="color: #d23f31;font-size: 14px;">−0.70 (0.12%)</span>
+
+					<svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+					<path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+					</svg>
+
+
+
+            </div>
+            <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- Bajaj auto -->
+
+
+                        <a class="company" href= "./csv/BAJAJ-AUTO.html" style=" color: #609">
+                            Bajaj Auto Ltd
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: BAJAJ-AUTO</p>
+                        <span style="color: #3c4043;font-size: 14px;">2,982.00</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;"> −4.70 (0.16%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+            <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- Infosys Ltd -->
+
+
+                        <a class="company" href= "./csv/INFY.html" style=" color: #609">
+                            Infosys Ltd
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: INFY</p>
+                        <span style="color: #3c4043;font-size: 14px;">1,008.00</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;"> −1.90 (0.19%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+		</div>
+		<div class="row">
+			<div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- UltraTech Cement Ltd -->
+
+
+                        <a class="company" href= "./csv/ULTRACEMCO.html" style=" color: #609">
+                            UltraTech Cement Ltd
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: ULTRACEMCO</p>
+                        <span style="color: #3c4043;font-size: 14px;">3,928.90</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">+50.00 (1.29%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+            <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- UPL Ltd Fully Paid Ord. Shrs -->
+
+
+                        <a class="company" href= "./csv/UPL.html" style=" color: #609">
+                            UPL Ltd Fully Paid Ord. Shrs
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: UPL</p>
+                        <span style="color: #3c4043;font-size: 14px;">527.80</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">−4.40 (0.83%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+            <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- Bajaj Finserv Ltd -->
+
+
+                        <a class="company" href= "./csv/BAJAJFINSV.html" style=" color: #609">
+                            Bajaj Finserv Ltd
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE: BAJAJFINSV</p>
+                        <span style="color: #3c4043;font-size: 14px;">5,670.00</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">−42.25 (0.74%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+            <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- Hindustan Unilever Ltd -->
+
+
+                        <a class="company" href= "./csv/HINDUNILVR.html" style=" color: #609">
+                            Hindustan Unilever Ltd
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE:  HINDUNILVR</p>
+                        <span style="color: #3c4043;font-size: 14px;">2,026.75</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">−11.05 (0.54%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+		</div>
+		<div class="row">
+			 <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 16px"  >
+
+                <!-- NPTC ltd -->
+
+
+                        <a class="company" href= "./csv/NTPC.html" style=" color: #609">
+                            NTPC Limited
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE:  NTPC</p>
+                        <span style="color: #3c4043;font-size: 14px;">87.60</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">−0.70 (0.79%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+			 <div class="box border rounded"  class="col-sm" class="rounded-sm" style="font-family: arial,sans-serif;font-weight: normal;margin: 1em 1em;padding: 16px 16px 40px 30px"  >
+
+                <!-- Reliance ltd -->
+
+
+                        <a class="company" href= "./csv/RELIANCE.html" style=" color: #609">
+                            Reliance Ltd.
+                        </a>
+
+                        <p style="color: rgba(0,0,0,.62);font-size: 14px;">NSE:  Realince</p>
+                        <span style="color: #3c4043;font-size: 14px;">2,195.00</span>
+                        <span style="color: #3c4043;font-size: 14px;">INR</span>
+                        <span style="color: #d23f31;font-size: 14px;">-35.80 (1.60%)</span>
+
+                        <svg version="1.1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:12px;width:12px;padding-left:4px">
+                        <path d="M6,0.002L0 6.002 4.8 6.002 4.8 11.9996 7.2 11.9996 7.2 6.002 12 6.002z"></path>
+                        </svg>
+
+            </div>
+		</div>
+		
+	
+</div>
+<script src="./search.js"></script>
+
+</body>
+</html>

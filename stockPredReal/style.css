@@ -1,0 +1,38 @@
+div#main{
+    padding-top: 4%;
+}
+.navbar-custom {
+    background-color: #ffe9e2;
+    color: #2C3335;
+}
+div.row{
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+div.row div{
+    width: 20%;
+}
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 5px solid #f48fb1;
+    box-shadow: 0 4px 0 0 #f48fb1;
+    
+  }
+  .box{
+      transition: 0.1s ease-in-out;
+  }
+  .box:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    font-size: large;
+  }
+  .nevi{
+    transition: 0.1s ease-in-out; 
+  }
+  .nevi:hover{
+      font-size: large;
+  }
