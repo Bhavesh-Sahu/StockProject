@@ -2,8 +2,10 @@ div#main{
     padding-top: 4%;
 }
 .navbar-custom {
-    background-color: #ffe9e2;
+    background-color: ghostwhite;
     color: #2C3335;
+    box-shadow: 0 2px 4px 0 gainsboro;
+    
 }
 div.row{
     display: flex;
@@ -21,7 +23,7 @@ div.row div{
 .active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
     border-bottom: 5px solid #f48fb1;
     box-shadow: 0 4px 0 0 #f48fb1;
-    
+    height: 20px;
   }
   .box{
       transition: 0.1s ease-in-out;
