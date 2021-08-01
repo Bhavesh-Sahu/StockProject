@@ -25,7 +25,7 @@ def get_adj_close(ticker, start, end):
     info = web.DataReader(ticker, data_source='yahoo', start=start, end=end)['Adj Close']
     return pd.DataFrame(info)
 
-# Get Adjusted Closing Prices for Facebook, Tesla and Amazon between 2016-2017
+# Get Adjusted Closing Prices for Facebook, Tesla and Amazon between 2018-2020
 fb = get_adj_close('ambujacem.ns', '1/2/2018', '9/10/2020')
 #fb = get_adj_close('fb', '1/2/2016', '31/12/2017')
 tesla = get_adj_close('tsla', '1/2/2018', '9/10/2020')
